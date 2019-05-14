@@ -1,4 +1,5 @@
 extern crate clap;
+extern crate dns_lookup;
 
 use clap::*;
 
@@ -123,7 +124,7 @@ fn nmap_knock(ipv6: bool, host: &String, port: u16, duration: &u64) {
 	} else {
 		ip_arg = "-4";
 	}
-	
+
 	let cmd = Command::new("nmap")
 		.arg(ip_arg)
 		.arg("-Pn")
