@@ -1,5 +1,10 @@
+
 [package]
 name = "rknock"
+description = "Simple port knocking client"
+license = "BSD3"
+license_file = "LICENSE.md"
+repository = "https://github.com/tubberd/rknock"
 version = "0.1.0"
 authors = ["Daniel Wanner <daniel.wanner@pm.me>"]
 edition = "2018"
