@@ -9,7 +9,7 @@ fn main() {
 	let app_matches = App::new("rknock")
 		.about("Port knocking client written in Rust")
 		.author("Daniel Wanner <daniel.wanner@pm.me>")
-		.version("0.1.0")
+		.version("0.1.3")
 		.arg(
 			Arg::with_name("ipv4")
 				.short("4")

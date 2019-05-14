@@ -5,7 +5,7 @@ description = "Simple port knocking client"
 license = "BSD-3-Clause"
 license_file = "LICENSE.md"
 repository = "https://github.com/tubberd/rknock"
-version = "0.1.2"
+version = "0.1.3"
 authors = ["Daniel Wanner <daniel.wanner@pm.me>"]
 
 [dependencies]
