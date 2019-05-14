@@ -12,7 +12,3 @@ edition = "2018"
 [dependencies]
 clap = "2.33.0"
 dns-lookup = "1.0.0"
-socket2 = "0.3.9"
-nix = "0.13.0"
-net2 = "0.2.33"
-stopwatch = "0.0.7"
